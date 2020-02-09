@@ -9,3 +9,58 @@
     --very-dark-blue: hsl(255, 11%, 22%);
     --very-dark-violet: hsl(260, 8%, 14%);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.container, .shorten-api, .features-list, footer {
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.container {
+    padding: 1.6rem 0;
+}
+
+.logo {
+    display: inline-block;
+    width: 10%;
+    border: 1px solid black;
+    margin-right: 5%;
+    vertical-align: middle;
+}
+
+.logo a img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.primary {
+    display: inline-flex;
+    justify-content: space-between;
+    width: calc(85% - 4px);
+    border: 1px solid black;
+}
+
+.primary ul {
+    list-style-type: none;
+    display: inline-flex;
+    width: 15%;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.primary ul li {
+    display: inline-block;
+}
+
+.primary ul li a {
+    font-size: 0.8rem;
+    color: var(--gray);
+}
