@@ -50,17 +50,29 @@
 
 .primary ul {
     list-style-type: none;
-    display: inline-flex;
+    /* display: inline-flex;
     width: 15%;
-    justify-content: space-between;
+    justify-content: space-between; */
     border: 1px solid black;
 }
 
 .primary ul li {
     display: inline-block;
+    margin-right: 1rem;
 }
 
 .primary ul li a {
     font-size: 0.8rem;
     color: var(--gray);
+}
+
+.primary ul:nth-child(2) li:nth-child(2) {
+    background-color: var(--cyan);
+    padding: 0 1rem;
+    border-radius: 20px;
+    margin-right: 0;
+}
+
+.primary ul:nth-child(2) li:nth-child(2) a {
+    color: #FFF;
 }
