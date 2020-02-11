@@ -85,25 +85,28 @@
     display: inline-block;
     width: 50%;
     border: 1px solid black;
-    /* vertical-align: middle; */
+    vertical-align: middle;
 }
 
-/* .content h1 {
+.content h1 {
     font-size: 4.5rem;
-    font-weight: 700;
-    line-height: 1.15em;
-} */
+    color: var(--very-dark-blue);
+    line-height: 1.1em;
+}
 
 .content p {
-    font-size: 1.35rem;
+    font-size: 1.3rem;
     color: var(--gray);
+    border: 1px solid black;
+    width: 90%;
+    margin-bottom: 2rem;
 }
 
 .content a {
     display: inline-block;
     background-color: var(--cyan);
     color: #FFF;
-    /* padding: 5px 20px; */
+    padding: 6px 26px;
     border-radius: 50px;
 }
 
@@ -111,7 +114,7 @@
     display: inline-block;
     border: 1px solid black;
     max-width: 50%;
-    /* vertical-align: middle; */
+    vertical-align: middle;
 }
 
 .vector-illustration img {
