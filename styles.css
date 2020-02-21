@@ -18,8 +18,9 @@
     text-decoration: none;
 }
 
+
 .container, .shorten-api, .features-list, footer {
-    width: 80%;
+    width: 77%;
     margin: auto;
     border: 1px solid black;
 }
@@ -62,13 +63,15 @@
 .primary ul li a {
     font-size: 0.8rem;
     color: var(--gray);
+    font-weight: 700;
 }
 
 .primary ul:nth-child(2) li:nth-child(2) {
     background-color: var(--cyan);
-    padding: 0 1rem;
+    padding: 2px 16px;
     border-radius: 20px;
     margin-right: 0;
+    margin-left: 1.2rem;
 }
 
 .primary ul:nth-child(2) li:nth-child(2) a {
@@ -78,7 +81,7 @@
 /* INTRODUCTION */
 .introduction {
     /* border: 1px solid red; */
-    margin-left: 10%;
+    margin-left: 11.5%;
 }
 
 .content {
@@ -86,16 +89,19 @@
     width: 50%;
     border: 1px solid black;
     vertical-align: middle;
+    
 }
 
 .content h1 {
-    font-size: 4.5rem;
+    font-size: 4.15rem;
     color: var(--very-dark-blue);
     line-height: 1.1em;
+    width: 90%;
+    border: 1px solid black;
 }
 
 .content p {
-    font-size: 1.3rem;
+    font-size: 1.22rem;
     color: var(--gray);
     border: 1px solid black;
     width: 90%;
@@ -106,7 +112,7 @@
     display: inline-block;
     background-color: var(--cyan);
     color: #FFF;
-    padding: 6px 26px;
+    padding: 8px 26px;
     border-radius: 50px;
 }
 
@@ -115,9 +121,12 @@
     border: 1px solid black;
     max-width: 50%;
     vertical-align: middle;
+    overflow-x: hidden;
 }
 
 .vector-illustration img {
-    width: 100%;
+    /* width: 100%; */
     height: auto;
+    /* padding-left: 2rem; */
+    transform: scale(0.9);
 }
